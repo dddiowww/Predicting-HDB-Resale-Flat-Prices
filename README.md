@@ -21,10 +21,26 @@ This notebook covers the **data processing and modeling pipeline**:
 * Training and evaluating advanced models
 * Saving the predictions for submission and analysis
 
+### `auxiliary-data/`
+
+This folder is the same one as the Kaggle official supportive data.
+
+### `data/`
+
+This folder contains all the tables needed to run the experiment, including origin data and some intermediate data generated during feature engineering.
+
 ### `history/`
 
 This folder contains previous versions and experiment scripts, which document the project’s progress and earlier approaches.
 These serve as references for methodology comparison and result tracking.
+
+### `logs/`
+
+This folder contains training logs of XGBoost and LightGBM models.
+
+### `plots/`
+
+This folder contains plots used in both progress report and final report, basically used to analyze data structure and training outcome.
 
 ---
 
